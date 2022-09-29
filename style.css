@@ -1,0 +1,192 @@
+nav {
+  font-family: Montserrat, Nunito Sans;
+}
+
+.nav-link.active {
+  color: 10C9C3;
+}
+
+.nav-link {
+  border: none;
+  background-color: transparent;
+}
+
+  .jumbotron{
+    background: url('/images/aidan-hancock-8RU4OuA6Yug-unsplash.png') no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    min-height: 100%;
+}
+
+.jumbotron-text{
+  font-family: Montserrat, Nunito Sans;
+  color: black;
+}
+
+.btn-primary {
+  background-color: 10C9C3;
+  border: none;
+  display: block; /*Ok maybe not-*/
+}
+
+.btn-primary:hover {
+  background-color: 10C9C3;
+}
+
+.about-us-div {
+    height: 450px;
+    font-family: Montserrat, Nunito Sans;
+}
+
+.about-us{
+  text-align: center;
+  font-family: Montserrat, Nunito Sans;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.about-us-text{
+  font-weight: lighter;
+  text-align: center;
+  padding: 20px;
+}
+
+.signature {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.work {
+  background-color: F5F5F5;
+}
+
+.lemon{
+  background-image:url('images/Package Design Lemon Tea - fabian krotzer Frame.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.eye{
+   opacity:0;
+  transition-duration:1.25s;
+  display: flex;
+}
+
+.eye:hover {
+  opacity:1;
+}
+
+/*.middle {
+  background-color: black;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, 50%);
+  text-align: center;
+}
+
+.images:hover {
+  opacity: 1;
+}*/
+
+.eye {
+  padding-top: 40%;
+  color: white;
+  font-size: 16px;
+}
+
+/*.work, .hovers {
+  background-color: F5F5F5;
+}*/
+
+.row {
+  width: 100%;
+}
+
+/*.work-image {
+  height: auto;
+	width: 100%;
+  display:block;
+  object-fit: contain;
+}*/
+
+.professional-skills {
+  margin-left: 15%;
+  margin-top: 5%;
+  font-family: Montserrat, Nunito Sans;
+}
+
+.progress-bar-1, .progress-bar-2, .progress-bar-3 {
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+/*Ok that's not working-*/
+progress-bar {
+  color: 10C9C3;
+}
+
+.work-row {
+  background-color: 10C9C3;
+}
+
+.icon {
+  float: left;
+}
+
+.icon-1-div {
+  padding: 70px;
+}
+
+.icon-1-text {
+  margin-left: 40px;
+}
+
+.card, card-img-top {
+  border: none;
+}
+
+.service-design{
+  justify-content: center;
+}
+
+.service-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.quote {
+  background-color: 10C9C3;
+  min-height: 500px;
+}
+
+.quote-text {
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  font-size: 40px;
+}
+
+.quote-text-person {
+  text-align: center;
+  color: white;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.form-text {
+  text-align: center;
+}
