@@ -2,8 +2,8 @@ nav {
   font-family: Montserrat, Nunito Sans;
 }
 
-.nav-link.active {
-  color: 10C9C3;
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #10c9c3;
 }
 
 .nav-link {
@@ -11,36 +11,41 @@ nav {
   background-color: transparent;
 }
 
-  .jumbotron{
-    background: url('/images/aidan-hancock-8RU4OuA6Yug-unsplash.png') no-repeat center center; 
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    min-height: 100%;
+.jumbotron {
+  background: url("/images/aidan-hancock-8RU4OuA6Yug-unsplash.png") no-repeat
+    center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  min-height: 100%;
 }
 
-.jumbotron-text{
+.jumbotron-text {
   font-family: Montserrat, Nunito Sans;
   color: black;
 }
 
+.jumbotron-text-2 {
+  color: #787878;
+}
+
 .btn-primary {
-  background-color: 10C9C3;
+  background-color: #10c9c3;
   border: none;
   display: block; /*Ok maybe not-*/
 }
 
 .btn-primary:hover {
-  background-color: 10C9C3;
+  background-color: #10c9c3;
 }
 
 .about-us-div {
-    height: 450px;
-    font-family: Montserrat, Nunito Sans;
+  height: 450px;
+  font-family: Montserrat, Nunito Sans;
 }
 
-.about-us{
+.about-us {
   text-align: center;
   font-family: Montserrat, Nunito Sans;
   font-size: 30px;
@@ -49,7 +54,7 @@ nav {
   margin-top: 20px;
 }
 
-.about-us-text{
+.about-us-text {
   font-weight: lighter;
   text-align: center;
   padding: 20px;
@@ -63,23 +68,31 @@ nav {
 }
 
 .work {
-  background-color: F5F5F5;
+  background-color: #f5f5f5;
 }
 
-.lemon{
-  background-image:url('images/Package Design Lemon Tea - fabian krotzer Frame.png');
-  background-repeat:no-repeat;
-  background-size:cover;
+.bg-info {
+  color: #10c9c3;
 }
 
-.eye{
-   opacity:0;
-  transition-duration:1.25s;
+.hovers {
+  background-color: #f5f5f5;
+}
+
+.lemon {
+  background-image: url("images/Package Design Lemon Tea - fabian krotzer Frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eye {
+  opacity: 0;
+  transition-duration: 1.25s;
   display: flex;
 }
 
 .eye:hover {
-  opacity:1;
+  opacity: 1;
 }
 
 /*.middle {
@@ -125,18 +138,17 @@ nav {
   font-family: Montserrat, Nunito Sans;
 }
 
-.progress-bar-1, .progress-bar-2, .progress-bar-3 {
+.progress-bar-1,
+.progress-bar-2,
+.progress-bar-3 {
   margin-left: 15%;
   margin-top: 10%;
 }
 
-/*Ok that's not working-*/
-progress-bar {
-  color: 10C9C3;
-}
-
 .work-row {
-  background-color: 10C9C3;
+  background-color: #10c9c3;
+  color: white;
+  font-family: Montserrat, Nunito Sans;
 }
 
 .icon {
@@ -148,45 +160,95 @@ progress-bar {
 }
 
 .icon-1-text {
-  margin-left: 40px;
+  padding-left: 40px;
 }
 
-.card, card-img-top {
+.card {
   border: none;
-}
-
-.service-design{
+  padding: 30px;
   justify-content: center;
 }
 
-.service-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+.card-img-top {
+  width: 40px;
+  margin: 0 auto;
+}
+
+#app {
+  height: 30px;
+}
+
+.card-title,
+.card-body {
+  justify-content: center;
+  font-family: Montserrat, Nunito Sans;
+}
+
+.service-design {
+  justify-content: center;
+}
+
+.service-title {
+  padding-top: 50px;
+  margin-bottom: 100px;
 }
 
 .quote {
-  background-color: 10C9C3;
+  background-color: #10c9c3;
   min-height: 500px;
 }
 
 .quote-text {
   text-align: center;
   color: white;
-  padding-top: 200px;
+  padding-top: 150px;
   font-size: 40px;
+  font-family: Montserrat, Nunito Sans;
 }
 
 .quote-text-person {
   text-align: center;
   color: white;
+  padding-bottom: 150px;
+  padding-top: 40px;
+  font-family: Montserrat, Nunito Sans;
+}
+
+/*This is a guess I can't see the website it keeps getting blocked*/
+.logo-bar {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.form-div {
+  background-color: #f5f5f5;
+  min-height: 700px;
+  font-family: Montserrat, Nunito Sans;
 }
 
 .form-title {
   text-align: center;
+  padding-bottom: 40px;
+  padding-top: 100px;
 }
 
 .form-text {
   text-align: center;
+  font-size: 20px;
+  color: #787878;
+}
+
+.form-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: #141414;
+  color: #f5f5f5;
+  padding: 100px;
+}
+
+.footer-title {
+  color: white;
 }
